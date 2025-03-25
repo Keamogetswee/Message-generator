@@ -1,0 +1,20 @@
+{
+  "name": "message-generator",
+  "version": "1.0.0",
+  "description": "A message generator program. Every time a user runs a program, they should get a new, randomised output.",
+  "main": "messageGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keamogetswee/Message-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keamogetswee/Message-generator/issues"
+  },
+  "homepage": "https://github.com/Keamogetswee/Message-generator#readme"
+}
