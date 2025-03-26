@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Keamogetswee/Message-generator/issues"
   },
-  "homepage": "https://github.com/Keamogetswee/Message-generator#readme"
+  "homepage": "https://github.com/Keamogetswee/Message-generator#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
