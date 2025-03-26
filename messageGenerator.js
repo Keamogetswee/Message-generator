@@ -1,5 +1,3 @@
-console.log("Script started...");  // Debugging: Check if script is running
-
 // Define an array of Bible verses
 const verses = [
   "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope. – Jeremiah 29:11",
@@ -18,17 +16,12 @@ const verses = [
 
 // Function to generate a random index for an array
 function getRandomIndex(arr) {
-  return Math.floor(Math.random() * arr.length);
-}
-
-function generateVerse() {
-  console.log("Function generateVerse() is being called...");  // Debugging log
+    return Math.floor(Math.random() * arr.length);
+  }
   
-  const verse = verses[getRandomIndex(verses)];
-  console.log("Verse to be displayed:", verse);  // Debugging line
-  console.log(verse);  // Main output
-}
-
-// Debugging step
-console.log("Starting Bible verse generator...");
-generateVerse();
+  function generateVerse() {
+    const verse = verses[getRandomIndex(verses)];
+    console.log(verse);  // Main output
+  }
+  
+  generateVerse();
