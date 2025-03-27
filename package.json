@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A message generator program. Every time a user runs a program, they should get a new, randomised output.",
   "main": "messageGenerator.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node messageGenerator.js"
   },
   "repository": {
     "type": "git",
